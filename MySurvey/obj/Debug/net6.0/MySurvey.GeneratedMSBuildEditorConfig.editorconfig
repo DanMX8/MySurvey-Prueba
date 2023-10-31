@@ -16,6 +16,10 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Wolfpack\MySurvey\MySurvey
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Wolfpack/MySurvey/MySurvey/Views/Home/AdministrarCatalogo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBZG1pbmlzdHJhckNhdGFsb2dvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Wolfpack/MySurvey/MySurvey/Views/Home/catalogo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxjYXRhbG9nby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -28,16 +32,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Wolfpack/MySurvey/MySurvey/Views/Home/Index2.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleDIuY3NodG1s
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Wolfpack/MySurvey/MySurvey/Views/Home/login.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxsb2dpbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Wolfpack/MySurvey/MySurvey/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Wolfpack/MySurvey/MySurvey/Views/Home/resultados.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxyZXN1bHRhZG9zLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Wolfpack/MySurvey/MySurvey/Views/Shared/Error.cshtml]

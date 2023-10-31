@@ -23,14 +23,33 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                         </li>
                         
-                       @if (ViewBag.IsLoggedIn == true){
+                        @if (ViewBag.IsLoggedIn == true) {
                             <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalogo">Catalogo</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Encuesta">Encuesta</a>
+                            </li>
+                        }
+                        else if (ViewBag.IsAdmin == true)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Catalogo">Catalogo</a>
                             </li>
                             <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Encuesta">Encuesta</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AdministrarCatalogo">Administrar</a>
                             </li>
-                       }
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Resultados">Resultados</a>
+                            </li>
+
+                        }
+                        else if (ViewBag.IsDirectivo == true)
+                        {
+                            
+                        }
+
+                        
+                            
+                          
+                            
                          @if (ViewBag.IsLoggedIn == false)
                          {
                             <li class="nav-item">

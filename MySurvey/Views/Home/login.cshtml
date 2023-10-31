@@ -6,9 +6,9 @@ Purpose: This page is used to login to the system
 @{
     ViewData["Title"] = "Login";
 }
-
+<h1>@ViewBag.Message</h1><br >
 Please, write ypur email and password
-<form asp-controller="Home" asp-action="Index2" method="post" onsubmit="return Index2()">
+<form asp-controller="Home" asp-action="Verificar" method="post" onsubmit="return validarFormulario()">
     email <br />
     
     <input type="text" id="email" name="email" />

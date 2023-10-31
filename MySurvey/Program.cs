@@ -1,7 +1,14 @@
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+// Habilitar el servicio de sesión.
+builder.Services.AddDistributedMemoryCache(); // Opcional, agrega caché en memoria distribuida para la sesión.
+builder.Services.AddSession();
 
 var app = builder.Build();
 
@@ -17,6 +24,9 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+
+// Habilitar el middleware de sesión.
+app.UseSession();
 
 app.UseAuthorization();
 
